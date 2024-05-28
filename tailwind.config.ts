@@ -9,10 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'img-hero': "url('../assets/bg-hero.jpg')",
+        'bgImageVideo': "url('../assets/dentista-video.jpg')",
+        'bgImageTestemonial': "url('../assets/andrea.jpg')"
       },
+      colors: {
+        'primary': '#145DE8',
+        'secondary': '#00BCDF',
+        'dark': '#05071C',
+        'grey': '#2B2B2D',
+        'grey-p': '#6E7276',
+        'light': '#F8F9FB',
+      }
     },
   },
   plugins: [],
