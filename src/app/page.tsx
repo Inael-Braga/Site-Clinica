@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { SectionBoasVindas } from "@/components/SectionBoasVindas";
 import { SectionHero } from "@/components/SectionHero";
 import { SectionPrice } from "@/components/SectionPrice";

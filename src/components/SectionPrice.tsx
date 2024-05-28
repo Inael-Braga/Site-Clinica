@@ -4,7 +4,7 @@ export function SectionPrice(){
     return(
         <section className="bg-[#F7F9FB] py-36">
             <Container>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <div className="flex flex-wrap gap-4 order-2 md:order-2">
                         <div className="flex grow flex-col h-auto bg-white text-center py-12 px-12 mb-10 rounded-2xl">
                             <h3 className="text-2xl font-bold">Gold Pack</h3>

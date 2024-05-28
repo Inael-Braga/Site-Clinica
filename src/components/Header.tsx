@@ -10,7 +10,7 @@ export function Header() {
             <header>
                 <div className="w-full max-w-[1200px] px-4 mx-auto flex items-center gap-4 justify-between">
                     <div className="logosite h-28 flex items-center">
-                        <Image className="w-auto h-20"
+                        <Image className=" w-min h-20"
                             src={LogoSite}
                             alt="logo"
                         />
@@ -19,12 +19,15 @@ export function Header() {
                         <ul className="flex gap-8">
                                 <MenuList
                                     nome="Início"
+                                    linkUrl="/"
                                 />
                                 <MenuList
                                     nome="Sobre"
+                                    linkUrl="#"
                                 />
                                 <MenuList
                                     nome="Contato"
+                                    linkUrl="/contato"
                                 />
                         </ul>
                     </div>

@@ -11,9 +11,9 @@ import { ServiceDente } from "./ServiceDente";
 export function SectionService(){
     return(
         <>
-        <section className="bg-[#F7F9FB] mt-36 py-36">
+        <section className="bg-[#F7F9FB] py-36">
             <Container>
-                <div className="topserv flex flex-wrap">
+                <div className="topserv grid grid-cols-1 md:grid-cols-2 mb-8">
                     <div>
                         <span className="text-base uppercase">top quality</span>
                         <h3 className=" text-6xl mb-6 mt-3 font-bold">Dentistry for the Whole Family</h3>
@@ -25,25 +25,25 @@ export function SectionService(){
                 </div>
                 <div className="botserv">
                     <div>
-                        <div className="flex flex-wrap flex-row justify-between mt-9">
+                        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-12 md:gap-8">
                             <ServiceDente
                                 imagem={Tooth1}
                                 alternativo="teste"
                                 titulo="Prevenção e manutenção"
                             />
-                            <div className="border-r border-gray-300"></div>
+                            {/* <div className="border-r border-gray-300 px-3"></div> */}
                             <ServiceDente
                                 imagem={Tooth2}
                                 alternativo="teste"
                                 titulo="Implantes dentários"
                             />
-                            <div className="border-r border-gray-300"></div>
+                            {/* <div className="border-r border-gray-300"></div> */}
                             <ServiceDente
                                 imagem={Tooth3}
                                 alternativo="teste"
                                 titulo="Cuidados e outros"
                             />
-                            <div className="border-r border-gray-300"></div>
+                            {/* <div className="border-r border-gray-300"></div> */}
                             <ServiceDente
                                 imagem={Tooth4}
                                 alternativo="teste"

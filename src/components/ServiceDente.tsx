@@ -9,16 +9,16 @@ type Props = {
 
 export function ServiceDente({ imagem, alternativo, titulo }: Props) {
     return (
-        <div>
+        <div className="flex flex-col items-center md:items-start">
             <Image
-                className="h-[75px] w-auto"
+                className="h-[75px] w-min"
                 src={imagem}
                 alt={alternativo}
             />
-            <div className="flex flex-col items-start">
-                <h4 className="text-2xl my-4 max-w-40">{titulo}</h4>
+            <div className="flex flex-col">
+                <h4 className="text-2xl my-4 lg:max-w-40">{titulo}</h4>
                 <Image
-                    className="h-5 w-auto"
+                    className="h-5 w-full md:w-min"
                     src={Arrow}
                     alt="Seta"
                 />

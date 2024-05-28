@@ -11,7 +11,8 @@ const config: Config = {
       backgroundImage: {
         'img-hero': "url('../assets/bg-hero.jpg')",
         'bgImageVideo': "url('../assets/dentista-video.jpg')",
-        'bgImageTestemonial': "url('../assets/andrea.jpg')"
+        'bgImageTestemonial': "url('../assets/andrea.jpg')",
+        'bgContatoMap': "url('../assets/map-blurred.jpg')",
       },
       colors: {
         'primary': '#145DE8',

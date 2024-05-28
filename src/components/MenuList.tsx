@@ -1,11 +1,13 @@
+
 type Props = {
     nome: string
+    linkUrl: string
 }
 
-export function MenuList({ nome } : Props) {
+export function MenuList({ nome, linkUrl } : Props) {
     return(
         <li>
-                <span className="text-dark">{nome}</span>
+                <span className="text-dark"><a href={linkUrl} >{nome}</a></span>
         </li>
 
     )
